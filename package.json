@@ -1,0 +1,26 @@
+{
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "description": "Team profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kifeakor22/teamProfileGen.git"
+  },
+  "author": "KC Ifeakor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kifeakor22/teamProfileGen/issues"
+  },
+  "homepage": "https://github.com/kifeakor22/teamProfileGen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^29.4.3"
+  }
+}
