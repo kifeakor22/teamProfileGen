@@ -15,6 +15,13 @@ const render = require("./src/page-template.js");
 
 const employees = [];  // an empty array  to hold employees 
 
+function buildTeam() {
+    if(!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+    fs.writeFileSync(outputPath, render(employees), 'utf-8')
+}
+
 function addIntern() {
     return inquirer.prompt([
          {
